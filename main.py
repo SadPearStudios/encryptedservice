@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 from datetime import datetime
 from pathlib import Path
 
-k = os.environ['FERNET']
+k = os.environ.get('FERNET')
 fernet = Fernet(k)
 
 
