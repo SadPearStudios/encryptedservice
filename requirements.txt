@@ -1,5 +1,7 @@
 cffi==1.16.0
 cryptography==42.0.5
+gunicorn==22.0.0
+packaging==24.0
 pyasn1==0.6.0
 pycparser==2.22
 rsa==4.9
